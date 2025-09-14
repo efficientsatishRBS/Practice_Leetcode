@@ -13,7 +13,7 @@ class TwoSumSolution {
             if (numberIndexMap.containsKey(difference)) {
                 return new int[] { numberIndexMap.get(difference), i };
             }
-            numberIndexMap.put(num, i);
+            numberIndexMap.put(num, i);//
         }
         return new int[] {};
     }
