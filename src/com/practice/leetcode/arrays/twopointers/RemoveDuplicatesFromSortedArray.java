@@ -1,4 +1,4 @@
-package com.practice.leetcode.arrays;
+package com.practice.leetcode.arrays.twopointers;
 
 public class RemoveDuplicatesFromSortedArray {
 	public int removeDuplicates(int[] nums) {

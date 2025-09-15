@@ -1,4 +1,4 @@
-package com.practice.leetcode.arrays;
+package com.practice.leetcode.arrays.twopointers;
 
 class SquaresOfSortedArray {
     public int[] sortedSquares(int[] nums) {
