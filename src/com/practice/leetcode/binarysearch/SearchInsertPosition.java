@@ -1,7 +1,9 @@
 package com.practice.leetcode.binarysearch;
 
 /**
- * https://leetcode.com/problems/search-insert-position/ Leetcode 35 TC -
+ * https://leetcode.com/problems/search-insert-position/ Leetcode 35
+ * Easy
+ *  TC -
  * O(logn) SC - O(1)
  */
 public class SearchInsertPosition {
