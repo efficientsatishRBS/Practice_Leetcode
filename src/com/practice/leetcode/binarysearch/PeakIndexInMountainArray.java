@@ -5,6 +5,24 @@ package com.practice.leetcode.binarysearch;
  * Medium Leetcode 852
  * 
  * TC - O(logn) SC - O(1)
+ * 
+ * Fast idea (binary search — O(log n))
+ * 
+ * Use the fact that:
+ * 
+ * if arr[mid] < arr[mid+1] you are on the increasing slope → peak is to the
+ * right
+ * 
+ * otherwise (arr[mid] > arr[mid+1]) you are on the decreasing slope (or at
+ * peak) → peak is at mid or to the left
+ * 
+ * So repeatedly shrink the search interval until l == r which will be the peak
+ * index.
+ * 
+ * 
+ * 
+ * 
+ * 
  */
 public class PeakIndexInMountainArray {
 
