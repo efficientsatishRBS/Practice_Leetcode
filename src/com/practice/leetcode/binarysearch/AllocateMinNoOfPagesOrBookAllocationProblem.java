@@ -1,5 +1,9 @@
 package com.practice.leetcode.binarysearch;
-
+/**
+ * https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1
+ * Time: O(n⋅log(sum(pages)−max(pages)))
+ * Space: O(1)
+ */
 public class AllocateMinNoOfPagesOrBookAllocationProblem {
 
 	public int findPages(int[] arr, int k) {
