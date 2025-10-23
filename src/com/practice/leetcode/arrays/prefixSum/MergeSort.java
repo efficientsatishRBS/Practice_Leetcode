@@ -60,5 +60,11 @@ public class MergeSort {
 
 		merge(arr, l, mid, r);
 	}
+	
+	public static void main(String[] args) {
+		MergeSort sort = new MergeSort();
+		int arr[] = new int[] {9,10,6,7};
+		sort.mergeSort(arr, 0, arr.length-1);
+	}
 
 }
